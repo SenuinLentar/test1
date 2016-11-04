@@ -6,8 +6,9 @@ int addition (int a, int b)
     return a+b;
 }
 
+
 int main()
 {
-    printf("a+b = %d", addition(1, 4));
+    printf("L'addition de a et b vaut %d\n", addition(1, 4));
     return 0;
 }
